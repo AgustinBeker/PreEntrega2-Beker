@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header ul{
+    justify-content: end;
+    display: flex;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: rgba(255, 0, 0, 0.71);
+    text-align: right;
+    gap: 40px;
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 60px;
+    top: 8px;
+    
+}
+
+header ul li {
+    display: list-item;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+}
+
+header ul li a{
+    position: relative; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    color: #FFFFFF;
+    text-decoration: none;
+    gap: 40px;
+    
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.container{
+    display: flex; 
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container-burger{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 175px 175px 175px;
+    grid-template-rows:175px 175px;
+    gap: 150px;
+    padding-top: 150px;
+}
+
+.container-burger div h1{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.container-burger div img{
+    width: 175px;
+    height: 175px;
+    border-radius: 10px;
+}
+
+.img-principal{
+    object-fit: cover;
+    width: 1186px;
+    height: 292px;
+}
+
+.cartel{
+    position: absolute;
+    width: 681px;
+    height: 250px;
+    left: 871px;
+    top: 512px;
+    background: rgba(255, 0, 0, 0.71);
+}
+
+.p-cartel{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    width: 369px;
+    height: 87px;
+    padding: 10px 10px 10px 0px;
+    margin: 30px 0px 0px 150px;
+}
+
+
+
+.boton-ver-mas{
+    display: flex;
+    text-align: center;
+    margin: 50px 300px 200px 275px; 
+    width: 117px;
+    height: 52px;
+    padding: 15px 0px 0px 15px;
+    background: rgba(235, 255, 0, 0.46);
+}
+
+.letra-boton-ver-mas{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+}
+
+.cartel-imagen{ 
+    /* display: flex;  */
+    justify-content: center;
+}
+
+.hamburguesa-index-cartel{
+    object-fit: cover;
+    position: absolute;
+    width: 311px;
+    height: 250px;
+    left: 400px;
+    top: 482px;
+}
+
+
+/* PEDIDOS */
+
+.container-pedidos{
+    display: flex; 
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.pedidos-textos{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.pedidos-textos h1{
+    padding-top: 30px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pedidos-textos p{
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    background: rgba(255, 0, 0, 0.71);
+}
+
+.flecha1{
+    display: flex; 
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.flecha1 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* FIN PEDIDOS */
+
+/* SOBRE-NOSOTROS */
+
+.container-nosotros{
+    padding: 30px 10px 30px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 30px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.nosotros{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 80px;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.texto-nosotros{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 22px;
+    margin-bottom: 300px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* FIN NOSOTROS */
+
+/*Formulario*/
+.container-consulta{
+    /* background-color: yellow; */
+    padding: 30px 10px 20px 10px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.consulta{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-style: normal;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 60%;
+}
+.form-label {
+    font-family: 'Inter';
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 40px;
+}
+.form-input {
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+.form-textarea {
+    margin-bottom: 40px;
+    height: 100px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+}
+
+.btn-submit{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    width: 100px;
+}
+/*Fin formulario*/
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: auto;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.container-redes-footer{
+    display: flex;
+    justify-content: center ;
+}
+
+.footer p{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+
+.footer div a img{ 
+    margin: 5px 10px 5px 10px;
+    height:30px;
+}
+
+
+/* FIN FOOTER */
