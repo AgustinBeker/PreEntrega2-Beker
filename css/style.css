@@ -3,30 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* HEADER */
 
+header{
+    width: 100%;
+}
 
-header ul{
-    justify-content: end;
+.navbar{
     display: flex;
-    height: 100px;
-    left: 0px;
-    top: 0px;
+    justify-content: space-between;
     background: rgba(255, 0, 0, 0.71);
-    text-align: right;
-    gap: 40px;
-    padding-right: 100px;
-    padding-top: 35px;
+    align-items: center;
+
 }
 
 .logo{
-    
+    width: 80px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.navbar-accesos{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 40px;
 }
 
 header ul li {
-    display: list-item;
+    display: flex;
     text-decoration: none;
     list-style: none;
     text-align: right;
+
 }
 
 header ul li a{
@@ -40,8 +49,13 @@ header ul li a{
     color: #FFFFFF;
     text-decoration: none;
     gap: 40px;
-    
 }
+
+
+
+
+
+/* FIN HEADER */
 
 body {
     background-color: black;
@@ -79,18 +93,26 @@ body {
 }
 
 .img-principal{
+    display: flex;
     object-fit: cover;
     width: 1186px;
     height: 292px;
 }
 
+.container-imagenes{
+    width: 100%;
+    display: flex;
+}
+
+
 .cartel{
-    position: absolute;
-    width: 681px;
-    height: 250px;
-    left: 871px;
-    top: 512px;
+    display: flex;
+    flex-direction: column;
     background: rgba(255, 0, 0, 0.71);
+    width: 50%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .p-cartel{
@@ -101,22 +123,17 @@ body {
     line-height: 29px;
     text-align: center;
     color: #000000;
-    width: 369px;
-    height: 87px;
-    padding: 10px 10px 10px 0px;
-    margin: 30px 0px 0px 150px;
 }
 
 
 
 .boton-ver-mas{
     display: flex;
-    text-align: center;
-    margin: 50px 300px 200px 275px; 
     width: 117px;
     height: 52px;
-    padding: 15px 0px 0px 15px;
     background: rgba(235, 255, 0, 0.46);
+    align-items: center;
+    justify-content: center;
 }
 
 .letra-boton-ver-mas{
@@ -132,17 +149,16 @@ body {
 }
 
 .cartel-imagen{ 
-    /* display: flex;  */
+    display: flex;
     justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
-.hamburguesa-index-cartel{
+.hamburguesa-index-cartel{ 
     object-fit: cover;
-    position: absolute;
     width: 311px;
     height: 250px;
-    left: 400px;
-    top: 482px;
 }
 
 
@@ -336,3 +352,23 @@ body {
 
 
 /* FIN FOOTER */
+
+
+
+/* RESPONSIVE */
+
+@media (max-width:  320px){
+   
+}
+
+
+@media (max-width:  767px) and (min-width: 321px){
+   
+}
+
+
+@media (min-width: 768px){
+   
+}
+
+/* FIN RESPONSIVE */
