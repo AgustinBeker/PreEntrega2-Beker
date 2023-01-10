@@ -7,6 +7,7 @@
 
 header{
     width: 100%;
+    
 }
 
 .navbar{
@@ -14,8 +15,9 @@ header{
     justify-content: space-between;
     background: rgba(255, 0, 0, 0.71);
     align-items: center;
-
+    
 }
+
 
 .logo{
     width: 80px;
@@ -30,12 +32,18 @@ header{
     padding-right: 40px;
 }
 
-header ul li {
+/* header ul li {
     display: flex;
     text-decoration: none;
     list-style: none;
     text-align: right;
-
+} */
+.container-nav {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-align: right;
+    justify-content: flex-end;
 }
 
 header ul li a{
@@ -46,7 +54,7 @@ header ul li a{
     font-size: 16px;
     line-height: 19px;
     text-align: right;
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
     gap: 40px;
 }
@@ -72,12 +80,20 @@ body {
 }
 
 .container-burger{
-    display: grid;
+    display: flex;
     justify-content: center;
-    grid-template-columns: 175px 175px 175px;
+    grid-template-columns: 175px 175px 175px; 
     grid-template-rows:175px 175px;
     gap: 150px;
     padding-top: 150px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container-burger div {
+    display: flex;
+    width: 16%;
+    flex-wrap: wrap;
 }
 
 .container-burger div h1{
