@@ -384,7 +384,65 @@ body {
 
 
 @media (min-width: 768px){
-   
+    header{
+        width: 100%;
+        
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        background: rgba(255, 0, 0, 0.71);
+        align-items: center;
+        
+    }
+    
+    
+    .logo{
+        width: 80px;
+        height: 80px;
+        padding-left: 20px;
+    }
+    
+    .navbar-accesos{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-right: 40px;
+    }
+    
+    /* header ul li {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        text-align: right;
+    } */
+    .container-nav {
+        display: flex;
+        text-decoration: none;
+        list-style: none;
+        text-align: right;
+        justify-content: flex-end;
+    }
+    
+    header ul li a{
+        position: relative; 
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: right;
+        color: #ffffff;
+        text-decoration: none;
+        gap: 40px;
+    }
+    
+    
+    
+    
+    
+    /* FIN HEADER */
 }
 
 /* FIN RESPONSIVE */
