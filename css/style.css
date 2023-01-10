@@ -105,7 +105,19 @@ body {
     width: 175px;
     height: 175px;
     border-radius: 10px;
-}
+    
+    width: var(--s);
+    aspect-ratio: 1;
+    outline: calc(var(--s)/2) solid #0009;
+    outline-offset: calc(var(--s)/-2);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .container-burger div img:hover {
+    outline: var(--b) solid var(--c);
+    outline-offset: var(--g);
+  }
+
 
 .img-principal{
     display: flex;
@@ -153,6 +165,10 @@ body {
     justify-content: center;
 }
 
+.boton-ver-mas:hover{
+    transform: translateY(0) scale(1.5);
+}
+
 .letra-boton-ver-mas{
     font-family: 'Inter';
     font-style: normal;
@@ -189,8 +205,8 @@ body {
 
 
 .pedidos-textos{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
     border-color: white;
     border-width: 1px;
@@ -203,7 +219,7 @@ body {
     color: #FFFFFF;
     font-style: normal;
     font-weight: 200;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 40px;
     text-align: center;
     text-decoration: underline;
@@ -224,7 +240,7 @@ body {
 .flecha1{
     display: flex; 
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .flecha1 img{
@@ -331,6 +347,11 @@ body {
     font-style: normal;
     font-weight: 200;
     width: 100px;
+}
+
+.btn-submit:hover{
+    background-color: red;
+    transform: translateY(0) scale(1);
 }
 /*Fin formulario*/
 
