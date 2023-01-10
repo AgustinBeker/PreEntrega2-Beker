@@ -118,6 +118,8 @@ body {
 .container-imagenes{
     width: 100%;
     display: flex;
+    gap: 30px;
+    justify-content: center;
 }
 
 
@@ -125,7 +127,7 @@ body {
     display: flex;
     flex-direction: column;
     background: rgba(255, 0, 0, 0.71);
-    width: 50%;
+    width: 35%;
     justify-items: center;
     align-items: center;
     justify-content: space-around;
@@ -168,7 +170,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 35%;
 }
 
 .hamburguesa-index-cartel{ 
@@ -269,12 +271,11 @@ body {
 /* FIN NOSOTROS */
 
 /*Formulario*/
-.container-consulta{
-    /* background-color: yellow; */
+
+
+.div-consulta{
+    display: flex;
     padding: 30px 10px 20px 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 20px;
     border-color: white;
     border-width: 1px;
     border-style: solid;
@@ -374,13 +375,32 @@ body {
 /* RESPONSIVE */
 
 @media (max-width:  320px){
-   
+    .container-imagenes {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;}
 }
 
 
 @media (max-width:  767px) and (min-width: 321px){
-   
+    .container-imagenes {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;}
+
+        .cartel-imagen{ 
+            width: 50%;
+        }
+        
+        .cartel{
+            width: 50%;
+        }
 }
+
+
+
 
 
 @media (min-width: 768px){
@@ -411,12 +431,6 @@ body {
         padding-right: 40px;
     }
     
-    /* header ul li {
-        display: flex;
-        text-decoration: none;
-        list-style: none;
-        text-align: right;
-    } */
     .container-nav {
         display: flex;
         text-decoration: none;
@@ -437,12 +451,6 @@ body {
         text-decoration: none;
         gap: 40px;
     }
-    
-    
-    
-    
-    
-    /* FIN HEADER */
 }
 
 /* FIN RESPONSIVE */
