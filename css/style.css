@@ -82,10 +82,8 @@ body {
 .container-burger{
     display: flex;
     justify-content: center;
-    grid-template-columns: 175px 175px 175px; 
-    grid-template-rows:175px 175px;
     gap: 150px;
-    padding-top: 150px;
+    padding-top: 50px;
     width: 100%;
     flex-wrap: wrap;
 }
@@ -94,6 +92,7 @@ body {
     display: flex;
     width: 16%;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-burger div h1{
@@ -275,10 +274,10 @@ body {
 
 .div-consulta{
     display: flex;
-    padding: 30px 10px 20px 10px;
     border-color: white;
     border-width: 1px;
     border-style: solid;
+    padding-bottom: 10px;
 }
 
 .consulta{
@@ -293,7 +292,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 60%;
+    width: 50%;
 }
 .form-label {
     font-family: 'Inter';
@@ -304,7 +303,7 @@ body {
     line-height: 40px;
 }
 .form-input {
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 200;
@@ -388,15 +387,21 @@ body {
         width: 100%;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;}
-
-        .cartel-imagen{ 
-            width: 50%;
-        }
+        align-items: center;
+    }
+    .cartel-imagen{ 
+        width: 50%;
+    }
         
-        .cartel{
-            width: 50%;
-        }
+    .cartel{
+        width: 50%;
+    }
+    .container-burger div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
