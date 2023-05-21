@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,20 +13,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: salmon;
+  background-color: #F0A4A9  ;
 }
 
-img{
-  width: 3%;
-  margin-top: 30px;
-}
+
 
 div{
   align-items: center;
-}
-
-button{
-  margin-right: 20px;
 }
 
 code {

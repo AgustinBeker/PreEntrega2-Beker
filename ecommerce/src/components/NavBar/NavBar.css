@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Dearlove';
+    src: url(./assets/fonts/Dearlove.ttf);
+}
+
+@font-face {
+    font-family: 'Ambroise';
+    src: url(./assets/fonts/AmbroiseLightRegular.otf);
+}
+
+.Dearlove {
+    font-family: 'Dearlove', sans-serif;
+}
+
+.Ambroise {
+    font-family: 'Ambroise', sans-serif;
+}
+
+.NavBar {
+    font-family: 'Dearlove', sans-serif;
+    background-color: #E4DAC6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+}
+
+h3 {
+    text-decoration: none;
+    color: black;
+}
+
+.Categories {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Option {
+    text-decoration: none;
+    color: black;
+}
+
+.Logo{
+    display: flex;
+}
+
+.LogoEdit {
+    width: 100px;
+    height: 100px;
+}

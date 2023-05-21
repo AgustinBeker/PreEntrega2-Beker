@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Dearlove';
+    src: url(../NavBar/assets/fonts/Dearlove.ttf);
+}
+
+@font-face {
+    font-family: 'Ambroise';
+    src: url(../NavBar/assets/fonts/AmbroiseLightRegular.otf);
+}
+
+.Dearlove {
+    font-family: 'Dearlove', sans-serif;
+}
+
+.Ambroise {
+    font-family: 'Ambroise', sans-serif;
+}
+
+
+.CardItem{
+    background-color: #E4DAC6 ;
+    width: 400px;
+    font-family: 'Ambroise', sans-serif;
+}
+
+.ItemImg {
+    width: 300px;
+    height: 300px;
+}
+
+.ItemFooter .Option{
+    background-color: #56A037;
+    padding: 5px 10px 5px 10px;
+}
